@@ -59,7 +59,8 @@ def generate_launch_description():
     use_sim_time = LaunchConfiguration('use_sim_time', default='false')
     
     # Get namespace
-    agent_num = DeclareLaunchArgument('agent_num', default_value=0)
+    # agent_num = DeclareLaunchArgument('agent_num', default_value=0)
+    agent_num = 0
     namespace = "agent_{}".format(agent_num)
 
     return LaunchDescription([
