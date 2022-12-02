@@ -1,4 +1,4 @@
-agent_0:
+agent_3:
   turtlebot3_node:
     ros__parameters:
 
@@ -28,7 +28,7 @@ agent_0:
 
         sonar: false
 
-agent_0:
+agent_3:
   diff_drive_controller:
     ros__parameters:
 

@@ -44,7 +44,7 @@ def generate_launch_description():
     
     # Get namespace
     # agent_num = DeclareLaunchArgument('agent_num', default_value=0)
-    agent_num = 0
+    agent_num = 3
     namespace = "agent_{}".format(agent_num)
 
     return LaunchDescription([
